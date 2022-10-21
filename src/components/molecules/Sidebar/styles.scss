@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 25%;
+  width: 20%;
   height: 100%;
   background-color: #12416F;
 
@@ -13,6 +13,19 @@
     text-decoration: none;
     
   }
+  .login-header-logo{
+    padding-top: 1rem;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 600;
+    width: 100%;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.logo-img{
+    margin-right: 1rem;
+}
 
   .menu-items{
     display: flex;
@@ -71,8 +84,6 @@
   }
 
   .login-header-container{
-        display: flex;
-        height: 80px;
         align-items: center;
         padding: 0;
         position: relative;

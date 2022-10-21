@@ -8,7 +8,7 @@ import {Context, ContextPersist} from "./store/context"
 import { AuthService } from './services/AuthService';
 
 import UserListView from './views/User/UserList/UserListView';
-import FriendshipListView from './views/Lesson/FriendshipList/FriendshipListView';
+import Presupuesto from 'views/Lesson/Presupuesto/PresupuestoView'; 
 import UserLessonListView from './views/Lesson/UserLessonList/UserLessonListView';
 import UserFriendshipListView from './views/Lesson/UserFriendshipList/UserFriendshipListView';
 
@@ -53,7 +53,7 @@ function App() {
                         { (load && user) && */}
                         <div>
                             <Route path='/users' component={UserListView} />
-                            <Route path='/friendships' component={FriendshipListView} />
+                            <Route path='/presupuesto' component={Presupuesto} />
                             <Route path='/user-lessons/:user' component={UserLessonListView} />
                             <Route path='/user-friendships/:user' component={UserFriendshipListView} />
                             <Route exact path="/">
